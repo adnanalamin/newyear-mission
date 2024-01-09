@@ -1,9 +1,16 @@
 body {
   font-family: "Merriweather", serif;
+  margin: 0;
+  padding: 0;
 }
 .newyear-banner {
   width: 1320px;
   margin: 50px auto;
+}
+
+hr{
+  width: 1320px;
+  text-align: center;
 }
 
 .description {
@@ -342,4 +349,122 @@ p.functional-description {
   -ms-transform: scale(1.2);
   transform: scale(1.2);
   transition: 1s ease;
+}
+
+/* ===============Subscribe section start=========================== */
+
+.subscribe-section {
+  width: 1320px;
+  margin: 120px auto;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+  height: 616px;
+}
+
+.subscribe-img {
+  width: 150px;
+  margin-top: 80px;
+}
+
+.subscribe-title {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.subscribe-description {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  margin: 0 auto;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+
+.subscribe-section > label {
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.subscribe-section > label > input {
+  border: none;
+  border-radius: 50px;
+  background: #fff;
+  padding: 17px;
+  width: 648px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.subscribe-section > label > button {
+  position: absolute;
+  border: none;
+  padding: 16px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  width: 210px;
+  right: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* =============footer section start============== */
+footer {
+  background: #070211;
+  margin-top: 120px;
+  color: #fff;
+}
+
+.information {
+  width: 1320px;
+  margin: 0 auto;
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adress {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.social-icon{
+  width: 1320px;
+  margin: 0 auto;
+  padding:48px 0;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+}
+
+.copy-right{
+  width: 1320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px 0 120px 0;
 }
