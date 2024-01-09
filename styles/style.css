@@ -72,10 +72,11 @@ body {
   width: 1320px;
   margin: 0 auto;
   display: flex;
-  margin: 126px 130px;
+  margin-top: 120px;
   border-radius: 15px;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 120px;
 }
 
 .party-item {
@@ -116,7 +117,7 @@ body {
 /* ==============time section ============ */
 .time-section {
   text-align: center;
-  background: linear-gradient(rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  background: linear-gradient(rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
   width: 1320px;
   margin: 0 auto;
   border-radius: 15px;
@@ -131,7 +132,7 @@ body {
 }
 
 .time-section > .join {
-    padding: 100px 385px;
+  padding: 100px 385px;
 }
 
 .party-place,
@@ -155,4 +156,114 @@ body {
   text-transform: uppercase;
   margin-bottom: 100px;
   margin-top: 48px;
+}
+
+/* ==================Cooming Soon Sectio Start====================== */
+
+.comming-soon-section {
+  display: flex;
+  width: 1320px;
+  margin: 120px auto;
+}
+
+.Comming-soon-heading {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.comming-soon-info {
+  margin-right: 70px;
+}
+
+.comming-soon-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  text-transform: capitalize;
+  margin-top: 26px;
+}
+
+.cooming-soon-description {
+  width: 393px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.comming-soon-img {
+  margin-right: 130px;
+  border-radius: 463px;
+  border: 15px solid #f00;
+  padding: 20px;
+}
+
+.comming-soon-year {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.cooming-soon-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 276px;
+}
+
+.new-year-cooming {
+  width: 140px;
+}
+
+/* ==========================FUNCTIONAL section start========================= */
+
+.functional {
+  width: 1320px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.functional-heading {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.functional-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+p.functional-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  width: 1068px;
+  margin: 0 auto;
+  margin-top: 28px;
+}
+
+.funtional-img{
+  width: 1320px;
+  margin: 0 auto;
+  position: absolute;
+  margin-top: 60px;
+}
+
+.funtional-img > .img-4{
+  bottom: 0;
 }
